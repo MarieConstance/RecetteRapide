@@ -2,7 +2,7 @@ function checkLogin() {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
     if (!loggedInUser) {
       alert("Vous devez vous connecter !");
-      window.location.href = "http://127.0.0.1:5500/index.html";
+      window.location.href = "https://marieconstance.github.io/index.html";
     } else {
       const doc = document.getElementById("welcomeMessage");
       console.log(doc);
@@ -54,7 +54,7 @@ function checkLogin() {
   function logout() {
     localStorage.removeItem("loggedInUser");
     alert("Vous êtes déconnecté !");
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "https://marieconstance.github.io/index.html";
   }
   
   const dec = document.querySelector("#btn");

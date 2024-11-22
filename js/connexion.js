@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
     if (user) {
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert(`Bienvenue, ${user.name} !`);
-      window.location.href = "http://127.0.0.1:5500/html/app.html";
+      window.location.href = "https://marieconstance.github.io/html/app.html";
     } else {
       alert("Email ou mot de passe incorrect !");
     }
