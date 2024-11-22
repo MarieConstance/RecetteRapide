@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
     if (user) {
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert(`Bienvenue, ${user.name} !`);
-      window.location.href = "./../html/app.html";
+      window.location.href = "html/app.html";
     } else {
       alert("Email ou mot de passe incorrect !");
     }
