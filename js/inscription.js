@@ -18,6 +18,6 @@ form.addEventListener("submit", (e) => {
     users.push({ name, email, password });
     localStorage.setItem("users", JSON.stringify(users));
     alert("Inscription réussie !");
-    window.location.href = "https://marieconstance.github.io/index.html";
+    window.location.href = "./../index.html";
   }
 )

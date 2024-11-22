@@ -2,7 +2,7 @@ function checkLogin() {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
     if (!loggedInUser) {
       alert("Vous devez vous connecter !");
-      window.location.href = "https://marieconstance.github.io/index.html";
+      window.location.href = "./../index.html";
     } else {
       const doc = document.getElementById("welcomeMessage");
       console.log(doc);
